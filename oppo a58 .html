@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>oppo A58</title>
+    <style>
+        body {
+            margin-top : 8%;
+            margin-bottom: 10px;
+            margin-left: 20%;
+
+        }
+        button {
+            display: block;
+            margin: 10px;
+            padding: 8px;
+            font-size: 15px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        #back {
+            background-color: blue;
+        }
+
+        #back:hover {
+            background-color: black;
+            color: antiquewhite;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border : 2px solid black;
+            height : 200px;
+            width : fit-content;
+            height: fit-content;
+            flex-wrap: wrap;
+        }
+        .content .img {
+            padding: 2rem;
+            padding-bottom: 0;
+        }
+        .content .img h2 {
+            padding-left: 20%;
+        }
+        .content .Details {
+            padding-left: 10%;
+            height: fit-content;
+
+        }
+        .content .Details h2 {
+            display: inline;
+            text-decoration: underline;
+        }
+        .Details h4 {
+            display : inline;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .content .price {
+            padding-left: 10%;
+            display: flex;
+            flex-wrap: wrap;
+            height: fit-content;
+            width: 200px;
+        }       
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="img">
+            <img src="Oppo-A58-Image.jpg" alt="oppo" width="300" height="300">
+            <h2>
+                OPPO A58
+             </h2>
+        </div>
+        <div class="Details">
+        <h2>
+           Product Description <br>
+       </h2>
+        <h4> RAM : 6 </h4><br>
+        <h4> ROM : 64GB </h4> <br>
+        <h4> PROCESSOR : DIMENSITY 6020 </h4> <br>
+        <h4> BATTERY : 5000mAh  </h4><br><br><br>
+        
+      <font color="purple">
+            <h1 style="text-decoration: underline;"> PRICE :   </h1>
+            <h1> ₹14,000 <br> <font color="#aaa"> <del>  ₹16,000</del> </font></h1>    
+        </font> 
+    </div>
+    <div style="display:flex; padding-left: 45%;"> 
+      
+            <button onclick="window.open()">ORDER NOW</button>
+            <button id="back" onclick="window.open('oppomodels.html')">Back</button>
+        </div>
+</div>
+</body>
+</html>
